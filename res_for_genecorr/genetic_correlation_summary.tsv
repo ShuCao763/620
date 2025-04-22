@@ -1,0 +1,6 @@
+Trait1	Trait2	rg	rg_se	z	p
+Chronotype	ADHD	0.0093	0.0248	0.3742	0.7083
+Chronotype	EA	-0.1359	0.0164	-8.278	1.2522e-16
+Chronotype	Baldness	0.0057	0.0166	0.3464	0.729
+Chronotype	SCZ	-0.1065	0.0191	-5.5643	2.6315e-08
+Chronotype	Napping	0.121	0.0218	5.5541	2.7902e-08

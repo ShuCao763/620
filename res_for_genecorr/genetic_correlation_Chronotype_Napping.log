@@ -1,0 +1,65 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 2.0.0
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--out /Users/caoshu/WISC/620/final_project/res_for_genecorr/genetic_correlation_Chronotype_Napping \
+--rg /Users/caoshu/WISC/620/final_project/munged_data/munged_Chronotype.sumstats.gz,/Users/caoshu/WISC/620/final_project/munged_data/munged_Napping.sumstats.gz \
+--ref-ld-chr /Users/caoshu/WISC/620/ldsc_inputs/for_h2/eur_w_ld_chr/ \
+--w-ld-chr /Users/caoshu/WISC/620/ldsc_inputs/for_enrichment/weights/weights.hm3_noMHC. 
+
+Beginning analysis at Sun Apr 20 00:21:52 2025
+Reading summary statistics from /Users/caoshu/WISC/620/final_project/munged_data/munged_Chronotype.sumstats.gz ...
+Read summary statistics for 1192114 SNPs.
+Reading reference panel LD Score from /Users/caoshu/WISC/620/ldsc_inputs/for_h2/eur_w_ld_chr/[1-22] ... (ldscore_fromlist)
+Read reference panel LD Scores for 1293150 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /Users/caoshu/WISC/620/ldsc_inputs/for_enrichment/weights/weights.hm3_noMHC.[1-22] ... (ldscore_fromlist)
+Read regression weight LD Scores for 1187349 SNPs.
+After merging with reference panel LD, 1174348 SNPs remain.
+After merging with regression SNP LD, 1159562 SNPs remain.
+Computing rg for phenotype 2/2
+Reading summary statistics from /Users/caoshu/WISC/620/final_project/munged_data/munged_Napping.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1159562 SNPs remain.
+1152033 SNPs with valid alleles.
+
+Heritability of phenotype 1
+---------------------------
+Total Observed scale h2: 0.1248 (0.0042)
+Lambda GC: 1.7648
+Mean Chi^2: 2.0287
+Intercept: 1.0418 (0.014)
+Ratio: 0.0407 (0.0137)
+
+Heritability of phenotype 2/2
+-----------------------------
+Total Observed scale h2: 0.0837 (0.0033)
+Lambda GC: 1.5585
+Mean Chi^2: 1.7848
+Intercept: 1.0322 (0.0113)
+Ratio: 0.041 (0.0143)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: 0.0124 (0.0022)
+Mean z1*z2: 0.1117
+Intercept: -0.0066 (0.0077)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: 0.121 (0.0218)
+Z-score: 5.5541
+P: 2.7902e-08
+
+
+Summary of Genetic Correlation Results
+                                                                            p1                                                                          p2    rg     se      z          p  h2_obs  h2_obs_se  h2_int  h2_int_se  gcov_int  gcov_int_se
+/Users/caoshu/WISC/620/final_project/munged_data/munged_Chronotype.sumstats.gz /Users/caoshu/WISC/620/final_project/munged_data/munged_Napping.sumstats.gz 0.121 0.0218 5.5541 2.7902e-08  0.0837     0.0033  1.0322     0.0113   -0.0066       0.0077
+
+Analysis finished at Sun Apr 20 00:22:02 2025
+Total time elapsed: 9.28s

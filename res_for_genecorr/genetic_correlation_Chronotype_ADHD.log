@@ -1,0 +1,65 @@
+*********************************************************************
+* LD Score Regression (LDSC)
+* Version 2.0.0
+* (C) 2014-2019 Brendan Bulik-Sullivan and Hilary Finucane
+* Broad Institute of MIT and Harvard / MIT Department of Mathematics
+* GNU General Public License v3
+*********************************************************************
+Call: 
+./ldsc.py \
+--out /Users/caoshu/WISC/620/final_project/res_for_genecorr/genetic_correlation_Chronotype_ADHD \
+--rg /Users/caoshu/WISC/620/final_project/munged_data/munged_Chronotype.sumstats.gz,/Users/caoshu/WISC/620/final_project/munged_data/munged_ADHD.sumstats.gz \
+--ref-ld-chr /Users/caoshu/WISC/620/ldsc_inputs/for_h2/eur_w_ld_chr/ \
+--w-ld-chr /Users/caoshu/WISC/620/ldsc_inputs/for_enrichment/weights/weights.hm3_noMHC. 
+
+Beginning analysis at Sun Apr 20 00:21:10 2025
+Reading summary statistics from /Users/caoshu/WISC/620/final_project/munged_data/munged_Chronotype.sumstats.gz ...
+Read summary statistics for 1192114 SNPs.
+Reading reference panel LD Score from /Users/caoshu/WISC/620/ldsc_inputs/for_h2/eur_w_ld_chr/[1-22] ... (ldscore_fromlist)
+Read reference panel LD Scores for 1293150 SNPs.
+Removing partitioned LD Scores with zero variance.
+Reading regression weight LD Score from /Users/caoshu/WISC/620/ldsc_inputs/for_enrichment/weights/weights.hm3_noMHC.[1-22] ... (ldscore_fromlist)
+Read regression weight LD Scores for 1187349 SNPs.
+After merging with reference panel LD, 1174348 SNPs remain.
+After merging with regression SNP LD, 1159562 SNPs remain.
+Computing rg for phenotype 2/2
+Reading summary statistics from /Users/caoshu/WISC/620/final_project/munged_data/munged_ADHD.sumstats.gz ...
+Read summary statistics for 1217311 SNPs.
+After merging with summary statistics, 1159562 SNPs remain.
+1094401 SNPs with valid alleles.
+
+Heritability of phenotype 1
+---------------------------
+Total Observed scale h2: 0.1233 (0.0042)
+Lambda GC: 1.7648
+Mean Chi^2: 2.0605
+Intercept: 1.0527 (0.0164)
+Ratio: 0.0497 (0.0154)
+
+Heritability of phenotype 2/2
+-----------------------------
+Total Observed scale h2: 0.0936 (0.0043)
+Lambda GC: 1.3615
+Mean Chi^2: 1.4573
+Intercept: 1.0367 (0.0099)
+Ratio: 0.0802 (0.0215)
+
+Genetic Covariance
+------------------
+Total Observed scale gencov: 0.001 (0.0027)
+Mean z1*z2: 0.0059
+Intercept: -0.0096 (0.0075)
+
+Genetic Correlation
+-------------------
+Genetic Correlation: 0.0093 (0.0248)
+Z-score: 0.3742
+P: 0.7083
+
+
+Summary of Genetic Correlation Results
+                                                                            p1                                                                       p2     rg     se      z      p  h2_obs  h2_obs_se  h2_int  h2_int_se  gcov_int  gcov_int_se
+/Users/caoshu/WISC/620/final_project/munged_data/munged_Chronotype.sumstats.gz /Users/caoshu/WISC/620/final_project/munged_data/munged_ADHD.sumstats.gz 0.0093 0.0248 0.3742 0.7083  0.0936     0.0043  1.0367     0.0099   -0.0096       0.0075
+
+Analysis finished at Sun Apr 20 00:21:20 2025
+Total time elapsed: 9.54s
