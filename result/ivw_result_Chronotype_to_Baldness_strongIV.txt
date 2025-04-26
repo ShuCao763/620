@@ -1,0 +1,10 @@
+Chronotype ➜ Baldness - IVW Result
+
+Number of SNPs:    126 
+Estimate:          -0.04634002 
+Std. Error:        0.02180374 
+95% CI:           ( -0.08907457 ,  -0.003605476 )
+P-value:           0.03355955 
+Heterogeneity Q:   270.2007 
+Heterogeneity p:   1.047867e-12 
+F-statistic:       47.26016 

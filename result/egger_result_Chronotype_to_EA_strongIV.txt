@@ -1,0 +1,9 @@
+Chronotype ➜ EA - Egger Regression Result
+
+Number of SNPs:    129 
+Causal Estimate:   -0.02693878 
+Std. Error:        0.08426609 
+P-value:           0.7492056 
+Intercept (pleiotropy):  -0.0004641334 
+Intercept SE:      0.001758012 
+Intercept P-value: 0.791772 

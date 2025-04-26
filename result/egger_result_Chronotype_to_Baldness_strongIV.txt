@@ -1,0 +1,9 @@
+Chronotype ➜ Baldness - Egger Regression Result
+
+Number of SNPs:    126 
+Causal Estimate:   -0.01720428 
+Std. Error:        0.0736813 
+P-value:           0.8153764 
+Intercept (pleiotropy):  -0.00064074 
+Intercept SE:      0.001547298 
+Intercept P-value: 0.6787991 

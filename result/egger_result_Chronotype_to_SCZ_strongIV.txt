@@ -1,0 +1,9 @@
+Chronotype ➜ SCZ - Egger Regression Result
+
+Number of SNPs:    129 
+Causal Estimate:   -0.3175192 
+Std. Error:        0.312812 
+P-value:           0.3100829 
+Intercept (pleiotropy):  0.002763572 
+Intercept SE:      0.006513668 
+Intercept P-value: 0.6713669 
