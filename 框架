@@ -1,0 +1,18 @@
+Part1
+1.介绍疾病，贴上给的paepr，它的曼哈顿图，说明这个疾病有遗传性和基因相关。
+
+2.1.画出曼哈顿图，发现几个peak，并有很显著的SNP。（qq图是否要附上呢？由于结果看起来不是很好）
+2.2locus zoom 图， 发现SNP 不是孤零零存在，则无假阳性，接着查看了前几个locus zoom 图下面的基因，找出几个基因解释，是否有paper支持，我门猜测这些基因和chronotype相关（候选基因）
+
+Part2
+3.1用ldsc 算出 heritability 发现显著，证实chronotype的遗传性
+3.2ldsc enrichment，贴上图，我们发现在脑部富集，是否有什么机制？（有paper支持？or gpt解释）为什么会在脑部呢？
+
+4.既然我们发现脑部富集，所以采用脑部组织去做TWAS（2个）并去找相关基因，此外还发现脑部下丘脑组织也相关（有paper？）。然后贴上曼哈顿图，qq图，volcano图，发现了几个基因，解释下机制，（是否有paper支持呢），因此我们判断这些基因就是治病基因。（接着我们可以去和备选基因比对，如果有重复最好，没有无所谓）
+
+Part3
+5.做了genetic correlation，发现和EA，SCZ，Napping显著，解释下，（有paper最好，没有就gpt）。（虽然Baldness不显著，但是可以聊下，活跃气氛，早睡晚睡还和秃头相关呢，以及ADHD）
+
+6.虽然我们发现了genetic correlation，但这只是相关性，我们想知道causal relationship。那我们就做mendelian randomization去探讨是否真的是chronotype引起了其他trait的结果。所以根据IVW result，IVW图（Egger result 可以提，可以不提）然后发现显著，所以我们判断的确是chronotype导致其他trait的结果。（尤其EA，SCZ可以聊下，这里就调侃下建议你们都早睡/晚睡，因为这和教育表现，精神分裂相关哈）
+
+7.summary. 发现了相关基因，找到了有意思的关联trait。
