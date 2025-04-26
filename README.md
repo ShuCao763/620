@@ -17,7 +17,7 @@
 
    `GWAS → 质控（QQ plot） → 信号筛选（LD Clumping） → 可视化（Manhattan plot） → 功能分析（Enrichment/LDSC） → 因果推断（MR） → 基因映射（TWAS）`
 
-### 2.2. 富集图的相关参数: [富集图参数](z_MD/基因遗传富集图.md "富集图参数")
+### 2.2. 富集图的相关参数:  [富集图参数](z_MD/基因遗传富集图.md "富集图参数")
 
 
 # 我们还需要做?
@@ -29,4 +29,11 @@
 5. genetic correlation 三个显著
 6. Super GNOVA
    
+
+# 使用的数据来源:
+Genotype-Tissue Expression Project: [https://uchicago.app.box.com/s/w0nzszuvuwcsznvo8x4c15o4hujqrwm7?page=4](https://uchicago.app.box.com/s/w0nzszuvuwcsznvo8x4c15o4hujqrwm7?page=4)
+
+Chronotype.txt.gz: [https://uwmadison.box.com/s/44p6bpb02mcg2pjcoiivc5l6vjr6z3k6](https://uwmadison.box.com/s/44p6bpb02mcg2pjcoiivc5l6vjr6z3k6)
+
+ldsc-2.0.1: [https://github.com/bulik/ldsc/](https://github.com/bulik/ldsc/)
 
